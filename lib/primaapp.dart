@@ -1,6 +1,6 @@
 class Fibonacci {
   int calc;
-  Fibonacci(this.calc);
+  Fibonacci({required this.calc});
 
   List<int> serieFibonacci() {
     List<int> serie = [];
